@@ -1,0 +1,14 @@
+
+<button type="submit" _v-56eba068="" class="btn btn-primary btn-block  text-uppercase" disabled="disabled"><span _v-56eba068=""><span _v-56eba068="" class="btn-inner--text">Continue</span> <span _v-56eba068="" class="btn-inner--icon"><i _v-56eba068="" class="fas fa-long-arrow-alt-right"></i></span></span> <span _v-56eba068="" style="display: none;"><span _v-56eba068="" class="btn-inner--icon"><i _v-56eba068="" class="fas fa-circle-notch fa-spin"></i></span></span></button>
+<input placeholder="********" name="password" _v-56eba068="" type="password" class="form-control form-control-emphasized" aria-required="true" aria-invalid="false">
+<div _v-56eba068="">gnani0712@gmail.com</div>
+
+<input type="hidden" name="_csrfToken" autocomplete="off" value="9e4ff5495a19af1dd56347a4a445419e52751d3570eba4c2f424cde7dc06aedb57cd36b85db88654c7a4e060ccf62e34c3b6d814c4ea5bb4ca9cfecf9606e1f6">
+
+
+
+	try {
+		window.csrfToken = document.getElementsByName("_csrfToken")[0].value;
+	} catch (error) {
+		// console.log("Error Handled");
+	}
