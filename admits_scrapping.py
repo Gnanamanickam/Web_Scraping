@@ -25,7 +25,7 @@ authenticity_token = list(set(tree.xpath("//input[@name='_csrfToken']/@value")))
 
 payload = {
 	"username": "gnanamanickam1995@gmail.com",
-	"password": "6284264411@Gnani",
+	"password": "*********",
 	"csrfmiddlewaretoken": authenticity_token
 }
 
