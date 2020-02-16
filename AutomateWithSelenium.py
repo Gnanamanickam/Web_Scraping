@@ -35,3 +35,9 @@ driver.find_element_by_class_name("mt-4").click()
 time.sleep(2)
 p = driver.find_element_by_xpath("//input[@placeholder='********']").send_keys(PASSWORD)
 driver.find_element_by_class_name("mt-4").click()
+
+cookies = driver.get_cookies()
+
+s = requests.Session()
+for cookie in cookies:
+    s.cookies.set(cookie['name'], cookie['value'])
