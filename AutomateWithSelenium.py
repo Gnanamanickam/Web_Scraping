@@ -27,6 +27,7 @@ PASSWORD = "*****"
 
 login_url = "https://yocket.in/account/login"
 URL = "https://yocket.in/applications-admits-rejects/124-state-university-of-new-york-at-buffalo/2?page=2"
+#https://www.deathbycaptcha.com/user/login--for captcha bypass
 
 driver.get (login_url)
 u = driver.find_element_by_name("email").send_keys(USERNAME)
